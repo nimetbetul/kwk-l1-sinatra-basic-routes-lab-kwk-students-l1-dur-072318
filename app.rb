@@ -9,11 +9,11 @@ class App < Sinatra::Base
     "My name is NIMET!"
   end
   
-  get 'hometown' do
+  get '/hometown' do
     "My hometown is Istanbul"
   end
   
-  get 'favorite-song' do
+  get '/favorite-song' do
     "My favorite song is 'Better Now' by Post Malone"
   end 
 end 
